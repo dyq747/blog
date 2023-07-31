@@ -6,7 +6,7 @@ export default defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   head: [
-    ['link', { rel: 'icon', href: '/public/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
