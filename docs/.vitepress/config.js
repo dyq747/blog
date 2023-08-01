@@ -7,7 +7,10 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: '/blog/favicon.ico' }]
+    ['link', { rel: 'apple-touch-icon', sizes : "180x180", href: '/blog/favicon_io/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', sizes : "32x32",  href: '/blog/favicon_io/favicon-32x32.png' }],
+    ['link', { rel: 'icon', sizes : "16x16",  href: '/blog/favicon_io/favicon-16x16.png' }],
+    ['link', { rel: 'site.webmanifest', href: '/blog/favicon_io/site.webmanifest' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
