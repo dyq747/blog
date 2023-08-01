@@ -11,6 +11,12 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    lastUpdatedText: '最后更新时间',
+    outlineTitle: '当前页面导航',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'JavaScript', link: '/230731' },
