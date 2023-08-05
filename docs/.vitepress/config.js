@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/blog/',
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "前端进阶",
+  description: "前端高手进阶",
   lastUpdated: true,
   head: [
     ['link', { rel: 'apple-touch-icon', sizes : "180x180", href: '/blog/favicon_io/apple-touch-icon.png' }],
@@ -22,18 +22,36 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'JavaScript', link: '/230731' },
+      { text: 'JavaScript', link: '/javascript/230731' },
+      { text: '性能优化', link: '/optimize/230804' },
+      { text: '工作笔记', link: '/work/230804' },
+      { text: '面试', link: '/interview/230805' },
     ],
 
-    sidebar: [
-      { text: 'JavaScript',
-        items: [
-          { text: "['1', '2', '3'].map(parseInt)what & why ?", link: '/230731' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    sidebar: {
+      '/javascript/': [
+        { text: 'JavaScript',
+          items: [
+            { text: "['1', '2', '3'].map(parseInt)what & why ?", link: '/javascript/230731' },
+            { text: 'Runtime API Examples', link: '/api-examples' }
+          ]
+        },
+      ],
+      '/optimize/': [
+        { text: '性能优化',
+          items: [
+            { text: "介绍下重绘和回流（Repaint & Reflow），以及如何进行优化", link: '/optimize/230804' }
+          ]
+        }
+      ],
+      '/interview/': [
+        { text: '面试',
+          items: [
+            { text: "面试前需要注意的17个问题", link: '/interview/230805' }
+          ]
+        }
+      ]
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dyq747/blog' }
     ]
