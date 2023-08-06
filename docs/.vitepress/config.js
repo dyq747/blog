@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/blog/',
-  title: "前端进阶",
-  description: "前端高手进阶",
+  title: 'dyq',
+  description: '高级前端进阶',
   lastUpdated: true,
   head: [
     ['link', { rel: 'apple-touch-icon', sizes : "180x180", href: '/blog/favicon_io/apple-touch-icon.png' }],
@@ -27,7 +27,6 @@ export default defineConfig({
       { text: '工作笔记', link: '/work/230804' },
       { text: '面试', link: '/interview/230805' },
     ],
-
     sidebar: {
       '/javascript/': [
         { text: 'JavaScript',
