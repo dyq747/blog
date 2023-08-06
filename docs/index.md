@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "dyq的博客"
-  text: "高级前端进阶"
+  name: dyq 的博客
+  text: 高级前端进阶
   tagline: 学无止境
   actions:
     - theme: brand
