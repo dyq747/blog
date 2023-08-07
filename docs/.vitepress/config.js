@@ -23,6 +23,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'JavaScript', link: '/javascript/230731' },
+      { text: 'Vue', link: '/vue/230807' },
       { text: '性能优化', link: '/optimize/230804' },
       { text: '工作笔记', link: '/work/230804' },
       { text: '面试', link: '/interview/230805' },
@@ -31,8 +32,14 @@ export default defineConfig({
       '/javascript/': [
         { text: 'JavaScript',
           items: [
-            { text: "['1', '2', '3'].map(parseInt)what & why ?", link: '/javascript/230731' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
+            { text: "['1', '2', '3'].map(parseInt)what & why ?", link: '/javascript/230731' }
+          ]
+        },
+      ],
+      '/vue/': [
+        { text: 'Vue',
+          items: [
+            { text: "vue 渲染大量数据时应该怎么优化？", link: '/vue/230807' }
           ]
         },
       ],
