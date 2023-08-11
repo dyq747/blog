@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: dyq 的博客
-  text: 高级前端进阶
-  tagline: 学无止境
+  text: 面向工资编程，简历驱动开发，薪资驱动提升
+  tagline: 学无止境，一路向钱看
   actions:
     - theme: brand
       text: Markdown Examples

@@ -39,7 +39,8 @@ export default defineConfig({
       '/vue/': [
         { text: 'Vue',
           items: [
-            { text: "vue 渲染大量数据时应该怎么优化？", link: '/vue/230807' }
+            { text: "vue 渲染大量数据时应该怎么优化？", link: '/vue/230807' },
+            { text: "vue 渲染列表为什么要写 key，其作用是什么？", link: '/vue/230811' },
           ]
         },
       ],
