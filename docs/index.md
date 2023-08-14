@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: dyq 的博客
+  name: dyq
   text: 面向工资编程，简历驱动开发，薪资驱动提升
   tagline: 学无止境，一路向钱看
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: JavaScript
+      link: /javascript
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Vue
+      link: /vue
 
 features:
   - title: Feature A
