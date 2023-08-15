@@ -41,7 +41,8 @@ export default defineConfig({
           items: [
             { text: "Vue 渲染大量数据时应该怎么优化", link: '/vue/230807' },
             { text: "Vue 渲染列表为什么要写 key，其作用是什么", link: '/vue/230811' },
-            { text: "在 Vue 中，子组件为什么不能修改父组件传递的 Prop 属性", link: '/vue/230814' },
+            { text: "子组件为什么不能修改父组件传递的 Prop 属性", link: '/vue/230814' },
+            { text: "computed 和 watch 的区别是什么", link: '/vue/230815' },
           ]
         },
       ],
