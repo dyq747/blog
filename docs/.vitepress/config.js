@@ -15,7 +15,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     lastUpdatedText: '最后更新时间',
-    outlineTitle: '当前页面导航',
+    outlineTitle: '当前页面目录',
     docFooter: {
       prev: '上一页',
       next: '下一页'
@@ -25,6 +25,7 @@ export default defineConfig({
       { text: 'JavaScript', link: '/javascript/230731' },
       { text: 'Vue', link: '/vue/230807' },
       { text: '性能优化', link: '/optimize/230804' },
+      { text: '工程化', link: '/optimize/230804' },
       { text: '工作笔记', link: '/work/230804' },
       { text: '面试', link: '/interview/230805' },
     ],
@@ -43,11 +44,19 @@ export default defineConfig({
             { text: "Vue 渲染列表为什么要写 key，其作用是什么", link: '/vue/230811' },
             { text: "子组件为什么不能修改父组件传递的 Prop 属性", link: '/vue/230814' },
             { text: "computed 和 watch 的区别是什么", link: '/vue/230815' },
+            { text: "父组件和子组件的生命周期钩子执行顺序是什么", link: '/vue/230816' },
           ]
         },
       ],
       '/optimize/': [
         { text: '性能优化',
+          items: [
+            { text: "介绍下重绘和回流（Repaint & Reflow），以及如何进行优化", link: '/optimize/230804' }
+          ]
+        }
+      ],
+      '/engineering/': [
+        { text: '工程化',
           items: [
             { text: "介绍下重绘和回流（Repaint & Reflow），以及如何进行优化", link: '/optimize/230804' }
           ]
