@@ -25,6 +25,7 @@ export default defineConfig({
       { text: 'JavaScript', link: '/javascript/230731' },
       { text: 'Vue', link: '/vue/230807' },
       { text: '性能优化', link: '/optimize/230804' },
+      { text: '浏览器', link: '/chrome/230817' },
       { text: '工程化', link: '/optimize/230804' },
       { text: '工作笔记', link: '/work/230804' },
       { text: '面试', link: '/interview/230805' },
@@ -45,6 +46,7 @@ export default defineConfig({
             { text: "子组件为什么不能修改父组件传递的 Prop 属性", link: '/vue/230814' },
             { text: "computed 和 watch 的区别是什么", link: '/vue/230815' },
             { text: "父组件和子组件的生命周期钩子执行顺序是什么", link: '/vue/230816' },
+            { text: "双向绑定和 vuex 是否冲突", link: '/vue/230818' },
           ]
         },
       ],
@@ -52,6 +54,13 @@ export default defineConfig({
         { text: '性能优化',
           items: [
             { text: "介绍下重绘和回流（Repaint & Reflow），以及如何进行优化", link: '/optimize/230804' }
+          ]
+        }
+      ],
+      '/chrome/': [
+        { text: '浏览器',
+          items: [
+            { text: "浏览器缓存的读取规则", link: '/chrome/230817' }
           ]
         }
       ],
