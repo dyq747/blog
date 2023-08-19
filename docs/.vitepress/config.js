@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/blog/',
   title: 'dyq',
+  titleTemplate: '工作 & 知识 & 技能 & 生活',
   description: '高级前端进阶',
   lastUpdated: true,
   head: [
@@ -14,6 +15,7 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    lastUpdated: true,
     lastUpdatedText: '最后更新时间',
     outlineTitle: '当前页面目录',
     docFooter: {
@@ -25,10 +27,14 @@ export default defineConfig({
       { text: 'JavaScript', link: '/javascript/230731' },
       { text: 'Vue', link: '/vue/230807' },
       { text: '性能优化', link: '/optimize/230804' },
-      { text: '浏览器', link: '/chrome/230817' },
-      { text: '工程化', link: '/optimize/230804' },
+      { text: '浏览器', link: '/browser/230817' },
+      { text: '工程化', link: '/optimize/230819' },
+      { text: '算法', link: '/algorithm/230819' },
+      { text: '设计模式', link: '/design-pattern/230819' },
       { text: '工作笔记', link: '/work/230804' },
       { text: '面试', link: '/interview/230805' },
+      { text: '复盘', link: '/review/230819' },
+      { text: '思过', link: '/faceyourself/230819' },
     ],
     sidebar: {
       '/javascript/': [
@@ -57,10 +63,13 @@ export default defineConfig({
           ]
         }
       ],
-      '/chrome/': [
+      '/browser/': [
         { text: '浏览器',
           items: [
-            { text: "浏览器缓存的读取规则", link: '/chrome/230817' }
+            { text: "浏览器缓存的读取规则", link: '/browser/230817' },
+            { text: "介绍下如何实现 token 加密", link: '/browser/230819' },
+            { text: "cookie 和 token 都存放在 header 中，为什么不会劫持 token", link: '/browser' },
+            { text: "说说浏览器和 Node 事件循环的区别", link: '/browser' },
           ]
         }
       ],
@@ -75,6 +84,13 @@ export default defineConfig({
         { text: '面试',
           items: [
             { text: "面试前需要注意的17个问题", link: '/interview/230805' }
+          ]
+        }
+      ],
+      '/review/': [
+        { text: '复盘',
+          items: [
+            { text: "第二次相亲", link: '/review/230819' }
           ]
         }
       ]
