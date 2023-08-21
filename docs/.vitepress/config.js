@@ -23,7 +23,7 @@ export default defineConfig({
       next: '下一页'
     },
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '首页', link: '/' },
       { text: 'JavaScript', link: '/javascript/230731' },
       { text: 'Vue', link: '/vue/230807' },
       { text: '性能优化', link: '/optimize/230804' },
@@ -53,6 +53,7 @@ export default defineConfig({
             { text: "computed 和 watch 的区别是什么", link: '/vue/230815' },
             { text: "父组件和子组件的生命周期钩子执行顺序是什么", link: '/vue/230816' },
             { text: "双向绑定和 vuex 是否冲突", link: '/vue/230818' },
+            { text: "Vue 的响应式原理中，Object.defineProperty 有什么缺陷", link: '/vue/230819' },
           ]
         },
       ],
