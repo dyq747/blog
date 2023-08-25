@@ -54,6 +54,7 @@ export default defineConfig({
             { text: "父组件和子组件的生命周期钩子执行顺序是什么", link: '/vue/230816' },
             { text: "双向绑定和 vuex 是否冲突", link: '/vue/230818' },
             { text: "Vue 的响应式原理中，Object.defineProperty 有什么缺陷", link: '/vue/230819' },
+            { text: "谈一谈 nextTick 的原理", link: '/vue/230824' },
           ]
         },
       ],
