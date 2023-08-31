@@ -56,6 +56,8 @@ export default defineConfig({
             { text: "Vue 的响应式原理中，Object.defineProperty 有什么缺陷", link: '/vue/230819' },
             { text: "谈一谈 nextTick 的原理", link: '/vue/230824' },
             { text: "Vue 中的 Computed 是如何实现的", link: '/vue/230825' },
+            { text: "v-if、v-show 和 v-html 的原理是什么", link: '/vue/230831' },
+            { text: "vue 如何优化首页的加载速度？vue 首页白屏是什么问题引起的？如何解决？", link: '/vue/230831-2' },
           ]
         },
       ],
@@ -86,7 +88,8 @@ export default defineConfig({
       '/design-pattern/': [
         { text: '设计模式',
           items: [
-            { text: "观察者模式", link: '/design-pattern/230826' }
+            { text: "观察者模式", link: '/design-pattern/230826' },
+            { text: "发布订阅模式", link: '/design-pattern/230826' },
           ]
         }
       ],
