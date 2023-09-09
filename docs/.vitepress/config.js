@@ -31,10 +31,11 @@ export default defineConfig({
       { text: '工程化', link: '/optimize/230819' },
       { text: '算法', link: '/algorithm/230819' },
       { text: '设计模式', link: '/design-pattern/230826' },
-      { text: '工作笔记', link: '/work/230804' },
       { text: '面试', link: '/interview/230805' },
+      { text: '工作笔记', link: '/work/230804' },
       { text: '复盘', link: '/review/230819' },
-      { text: '思过', link: '/faceyourself/230819' },
+      { text: '三省吾身', link: '/check-myself/' },
+      { text: '思过', link: '/confess/' },
     ],
     sidebar: {
       '/javascript/': [
@@ -88,8 +89,7 @@ export default defineConfig({
       '/design-pattern/': [
         { text: '设计模式',
           items: [
-            { text: "观察者模式", link: '/design-pattern/230826' },
-            { text: "发布订阅模式", link: '/design-pattern/230826' },
+            { text: "介绍下观察者模式和订阅-发布模式的区别，各自适用于什么场景", link: '/design-pattern/230909' },
           ]
         }
       ],
