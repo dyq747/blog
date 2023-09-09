@@ -30,7 +30,7 @@ export default defineConfig({
       { text: '浏览器', link: '/browser/230817' },
       { text: '工程化', link: '/optimize/230819' },
       { text: '算法', link: '/algorithm/230819' },
-      { text: '设计模式', link: '/design-pattern/230826' },
+      { text: '设计模式', link: '/design-pattern/230909' },
       { text: '面试', link: '/interview/230805' },
       { text: '工作笔记', link: '/work/230804' },
       { text: '复盘', link: '/review/230819' },
