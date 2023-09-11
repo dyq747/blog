@@ -17,7 +17,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     lastUpdated: true,
     lastUpdatedText: '最后更新时间',
-    outlineTitle: '当前页面目录',
+    outlineTitle: '当前页面导航',
     docFooter: {
       prev: '上一页',
       next: '下一页'
@@ -26,9 +26,9 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'JavaScript', link: '/javascript/230731' },
       { text: 'Vue', link: '/vue/230807' },
+      { text: 'Webpack', link: '/webpack/230911' },
       { text: '性能优化', link: '/optimize/230804' },
       { text: '浏览器', link: '/browser/230817' },
-      { text: '工程化', link: '/optimize/230819' },
       { text: '算法', link: '/algorithm/230819' },
       { text: '设计模式', link: '/design-pattern/230909' },
       { text: '面试', link: '/interview/230805' },
@@ -58,9 +58,16 @@ export default defineConfig({
             { text: "谈一谈 nextTick 的原理", link: '/vue/230824' },
             { text: "Vue 中的 Computed 是如何实现的", link: '/vue/230825' },
             { text: "v-if、v-show 和 v-html 的原理是什么", link: '/vue/230831' },
-            { text: "vue 如何优化首页的加载速度？vue 首页白屏是什么问题引起的？如何解决？", link: '/vue/230831-2' },
+            { text: "vue 如何优化首页的加载速度？首页白屏是什么问题引起的？如何解决？", link: '/vue/230831-2' },
           ]
         },
+      ],
+      '/webpack/': [
+        { text: '工程化',
+          items: [
+            { text: "介绍下 Webpack 热更新原理，如何做到在不刷新浏览器的前提下更新页面", link: '/webpack/230911' }
+          ]
+        }
       ],
       '/optimize/': [
         { text: '性能优化',
