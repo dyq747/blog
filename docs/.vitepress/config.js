@@ -32,7 +32,7 @@ export default defineConfig({
       { text: '算法', link: '/algorithm/230819' },
       { text: '设计模式', link: '/design-pattern/230909' },
       { text: '面试', link: '/interview/230805' },
-      { text: '工作笔记', link: '/work/230804' },
+      { text: '工作笔记', link: '/work/240506' },
       { text: '复盘', link: '/review/230819' },
       { text: '三省吾身', link: '/check-myself/' },
       { text: '思过', link: '/confess/' },
@@ -104,6 +104,13 @@ export default defineConfig({
         { text: '面试',
           items: [
             { text: "面试前需要注意的17个问题", link: '/interview/230805' }
+          ]
+        }
+      ],
+      '/work/': [
+        { text: '工作笔记',
+          items: [
+            { text: "Vue 的三种调试方法", link: '/work/240506' },
           ]
         }
       ],
