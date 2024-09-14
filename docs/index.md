@@ -15,11 +15,10 @@ hero:
       link: /vue
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 面向工资编程
+    details:
+  - title: 简历驱动开发
+    details:
+  - title: 薪资驱动提升
+    details:
 ---
-
